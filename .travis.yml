@@ -11,9 +11,4 @@ matrix:
 install:
   - pip install -M tox
 script: tox
-notifications:
-  irc:
-    use_notice: true
-    skip_join: true
-    channels:
-    - "irc.freenode.org#scrapy"
+
